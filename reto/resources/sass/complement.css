@@ -1,0 +1,68 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap";
+
+:root {
+    --color-principal: rgba(43, 49, 145, 0.5);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.bg-color-principal {
+    background-color: var(--color-principal);
+}
+
+.full-height {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.img-full {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.bg-img-1 {
+    background-image: url("/img/carrusel/img1.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.text-max {
+    font-size: 4rem;
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+.img-logo{
+    width: 24px;
+    height: 24px;
+}

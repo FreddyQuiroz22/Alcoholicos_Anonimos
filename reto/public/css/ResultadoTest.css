@@ -1,0 +1,86 @@
+body{
+	background:#f1f0f0;
+	color:#333;
+	font-family:Arial, helvetica, sans-serif;
+}
+
+div.wrapper h1{
+	font-family: akshar;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	font-weight: bold;
+
+}
+
+div ul.results {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 15px 0px;
+	WIDTH: 100%;
+	PADDING-TOP: 10px;
+	LIST-STYLE-TYPE: none;
+}
+div ul.results li{
+	PADDING-RIGHT: 20px;
+	DISPLAY: inline;
+	PADDING-LEFT: 40px;
+	PADDING-BOTTOM: 2px;
+	WIDTH: 100%;
+	PADDING-TOP: 2px;
+}
+div ul.results li.y{
+	font-size:17px;
+	color:#15af1c;
+}
+div ul.results li.n{
+	font-size:17px;
+	color:#d60808;
+}
+div.node_content ul.results {
+	background-color:#833939;
+	color:#000;
+	position: relative;
+}
+div ul.results div.box1{
+	width:760px;
+	height:75px;
+	margin:10px 10px;
+	padding:25px;
+	border:1.5px solid rgb(19, 80, 194);
+	background-color:rgb(243, 243, 243);
+	color:rgb(0, 0, 0);
+	margin: auto;
+	text-align: center;
+}
+
+div.middle-letter p{
+	text-align:left;
+	padding-left:40px;
+	padding-right:150px;
+	font-size:20px;
+	text-align: left;
+}
+div.clearfix p strong{
+	text-align:left;
+	text-indent:20px;
+	padding-left:35px;
+	padding-right: 38px;
+	padding-bottom: 4px;
+	font-size:24px;
+	font-weight: bold;
+}
+div.middle-letter button.redondo{
+	text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #3977C3;
+    border-radius: 15px;
+    border: 1px #3977C3;
+  }
